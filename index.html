@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover the latest fashion trends at Chic Threads. Shop our exclusive collection of clothing, accessories, and more. Free shipping on orders over $50." />
+  <meta name="keywords" content="fashion, clothing, online shopping, boutique, style, accessories, women's fashion, men's fashion" />
+  <meta name="author" content="Chic Threads" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://chicthreads.example.com/" />
+  <meta property="og:title" content="Chic Threads - Online Fashion Boutique" />
+  <meta property="og:description" content="Discover the latest fashion trends at Chic Threads. Shop our exclusive collection of clothing, accessories, and more." />
+  <meta property="og:image" content="https://chicthreads.example.com/images/social-preview.jpg" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://chicthreads.example.com/" />
+  <meta property="twitter:title" content="Chic Threads - Online Fashion Boutique" />
+  <meta property="twitter:description" content="Discover the latest fashion trends at Chic Threads. Shop our exclusive collection of clothing, accessories, and more." />
+  <meta property="twitter:image" content="https://chicthreads.example.com/images/social-preview.jpg" />
+  
+  <title>Chic Threads - Online Fashion Boutique | Shop Latest Trends</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-content">
+          <div class="shipping-banner">
+            <i class="fas fa-truck"></i> Free shipping on orders over $50
+          </div>
+          <div class="top-links">
+            <a href="#">Contact Us</a>
+            <a href="#">Track Order</a>
+            <a href="#">Store Locator</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-navigation">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <span>Chic</span>Threads
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li class="mega-menu-trigger">
+              <a href="new-arrivals.html">New Arrivals</a>
+              <div class="mega-menu">
+                <div class="mega-menu-content">
+                  <div class="mega-menu-column">
+                    <h4>Women's New Arrivals</h4>
+                    <ul>
+                      <li><a href="#">Dresses</a></li>
+                      <li><a href="#">Tops</a></li>
+                      <li><a href="#">Bottoms</a></li>
+                      <li><a href="#">Outerwear</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h4>Men's New Arrivals</h4>
+                    <ul>
+                      <li><a href="#">Shirts</a></li>
+                      <li><a href="#">Pants</a></li>
+                      <li><a href="#">Outerwear</a></li>
+                      <li><a href="#">Accessories</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-banner">
+                    <div class="banner-content">
+                      <h3>Summer Collection</h3>
+                      <p>Up to 30% off</p>
+                      <a href="#" class="banner-btn">Shop Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="sale.html" class="sale-link">Sale</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <div class="search-wrapper">
+            <a href="#" id="search-icon"><i class="fas fa-search"></i></a>
+            <div id="search-bar" class="hidden-search">
+              <form action="search.html" method="GET">
+                <input type="text" name="query" placeholder="Search for products..." />
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+          <a href="#" class="wishlist-icon">
+            <i class="far fa-heart"></i>
+            <span class="wishlist-count">0</span>
+          </a>
+          <div class="cart-preview">
+            <a href="#" class="cart-icon">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+            </a>
+            <div class="cart-dropdown">
+              <div class="cart-header">
+                <h4>Your Cart</h4>
+                <span class="item-count">0 items</span>
+              </div>
+              <div class="cart-items">
+                <p class="empty-cart">Your cart is empty</p>
+              </div>
+              <div class="cart-footer">
+                <div class="cart-total">
+                  <span>Subtotal:</span>
+                  <span class="amount">$0.00</span>
+                </div>
+                <div class="cart-actions">
+                  <a href="#" class="view-cart-btn">View Cart</a>
+                  <a href="#" class="checkout-btn">Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="account-dropdown">
+            <a href="#" class="user-link">
+              <i class="far fa-user"></i>
+              <span>Account</span>
+            </a>
+            <div class="dropdown-menu">
+              <a href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+              <a href="#"><i class="fas fa-user-plus"></i> Register</a>
+              <a href="#"><i class="fas fa-box"></i> Orders</a>
+              <a href="#"><i class="fas fa-heart"></i> Wishlist</a>
+              <a href="#"><i class="fas fa-cog"></i> Account Settings</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-slider">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');">
+        <div class="hero-content">
+          <span class="hero-subtitle">New Collection 2025</span>
+          <h1>Elevate Your Wardrobe</h1>
+          <p>Discover the latest trends in fashion with our exclusive collection</p>
+          <div class="hero-buttons">
+            <a href="new-arrivals.html" class="cta-button primary">Shop Now</a>
+            <a href="sale.html" class="cta-button secondary">View Sale</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');">
+        <div class="hero-content">
+          <span class="hero-subtitle">Summer Sale</span>
+          <h1>Up to 50% Off</h1>
+          <p>Limited time offer on selected items</p>
+          <div class="hero-buttons">
+            <a href="sale.html" class="cta-button primary">Shop Sale</a>
+            <a href="#featured" class="cta-button secondary">View Collection</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-controls">
+        <button class="hero-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="hero-dots">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+        </div>
+        <button class="hero-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <div class="hero-features">
+      <div class="feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-truck"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Free Shipping</h4>
+          <p>On orders over $50</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-undo"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Easy Returns</h4>
+          <p>30-day return policy</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-lock"></i>
+        </div>
+        <div class="feature-content">
+          <h4>Secure Payment</h4>
+          <p>100% secure checkout</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-headset"></i>
+        </div>
+        <div class="feature-content">
+          <h4>24/7 Support</h4>
+          <p>Dedicated support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-categories section">
+    <div class="container">
+      <div class="section-title">
+        <span class="subtitle">Our Collections</span>
+        <h2>Shop by Category</h2>
+        <p>Discover our carefully curated collections for every style and occasion</p>
+      </div>
+      
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Women's Collection" loading="lazy" />
+            <div class="category-overlay">
+              <a href="women.html" class="btn btn-outline">Shop Now</a>
+            </div>
+          </div>
+          <div class="category-content">
+            <h3>Women's Collection</h3>
+            <p>Elegant and trendy pieces for the modern woman</p>
+            <a href="women.html" class="category-link">Explore <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" alt="Men's Collection" loading="lazy" />
+            <div class="category-overlay">
+              <a href="men.html" class="btn btn-outline">Shop Now</a>
+            </div>
+          </div>
+          <div class="category-content">
+            <h3>Men's Collection</h3>
+            <p>Stylish and comfortable clothing for every occasion</p>
+            <a href="men.html" class="category-link">Explore <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Accessories" loading="lazy" />
+            <div class="category-overlay">
+              <a href="accessories.html" class="btn btn-outline">Shop Now</a>
+            </div>
+          </div>
+          <div class="category-content">
+            <h3>Accessories</h3>
+            <p>Complete your look with our stylish accessories</p>
+            <a href="accessories.html" class="category-link">Explore <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a href="new-arrivals.html" class="btn btn-primary">View All Collections</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Customer Service</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-column newsletter">
+          <h4>Newsletter</h4>
+          <p>Sign up for exclusive offers and updates.</p>
+          <form>
+            <input type="email" placeholder="Your email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Chic Threads. All Rights Reserved.</p>
+        <div class="payment-logos">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-paypal"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const searchIcon = document.getElementById("search-icon");
+      const searchBar = document.getElementById("search-bar");
+
+      searchIcon.addEventListener("click", function (event) {
+        event.preventDefault();
+        searchBar.classList.toggle("active-search");
+        searchBar.classList.toggle("hidden-search");
+        
+      });
+    });
+  </script>
+  <script src="scripts/hero-slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="product-title">Product Name | Chic Threads</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">Chic Threads</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="new-arrivals.html">New Arrivals</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="user-link">Sign In / Register</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="product-page container">
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <a href="#" id="product-category-link">Category</a> <i class="fas fa-chevron-right"></i> <span id="product-name-breadcrumb">Product Name</span>
+        </div>
+
+        <div class="product-main">
+            <div class="product-image-gallery">
+                <div class="main-image">
+                    <img id="main-product-image" src="" alt="Product Image">
+                </div>
+                <div class="thumbnails">
+                    <img src="" class="thumbnail" alt="Product thumbnail">
+                    <img src="" class="thumbnail" alt="Product thumbnail">
+                    <img src="" class="thumbnail" alt="Product thumbnail">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1 id="product-name">Product Name</h1>
+                <p class="product-price" id="product-price">$0.00</p>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                    <span class="review-count">(125 Reviews)</span>
+                </div>
+                
+                <div class="product-options">
+                    <div class="option-group">
+                        <label for="size">Size</label>
+                        <select id="size-selector">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="option-group">
+                        <label for="color">Color</label>
+                        <div class="color-options" id="color-options">
+                            <span class="color-swatch black active" data-color="black"></span>
+                            <span class="color-swatch white" data-color="white"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <div class="quantity-selector">
+                        <button class="quantity-btn">-</button>
+                        <input type="text" value="1" class="quantity-input">
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    <button class="buy-now-btn">Buy Now</button>
+                </div>
+                
+                <div class="product-details">
+                    <h3>Description</h3>
+                    <p id="product-description">A brief description of the product goes here. Highlighting key features, materials, and style.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Sign up for exclusive offers and updates.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chic Threads. All Rights Reserved.</p>
+                <div class="payment-logos">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/product.js"></script>
+</body>
+</html>
