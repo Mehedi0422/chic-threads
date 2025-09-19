@@ -19,15 +19,15 @@
   <meta property="twitter:url" content="https://chicthreads.example.com/" />
   <meta property="twitter:title" content="Chic Threads - Online Fashion Boutique" />
   <meta property="twitter:description" content="Discover the latest fashion trends at Chic Threads. Shop our exclusive collection of clothing, accessories, and more." />
-  <meta property="twitter:image" content="https://chicthreads.example.com/images/social-preview.jpg" />
+  <meta property="twitter:image" content="./images/social-preview.jpg" />
   
   <title>Chic Threads - Online Fashion Boutique | Shop Latest Trends</title>
-  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./favicon.ico" sizes="32x32" />
 </head>
 <body>
   <header class="main-header">
@@ -149,48 +149,26 @@
   </header>
 
   <section class="hero-section">
-    <div class="hero-slider">
-      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');">
-        <div class="hero-content">
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
           <span class="hero-subtitle">New Collection 2025</span>
-          <h1>Elevate Your Wardrobe</h1>
-          <p>Discover the latest trends in fashion with our exclusive collection</p>
-          <div class="hero-buttons">
-            <a href="new-arrivals.html" class="cta-button primary">Shop Now</a>
-            <a href="sale.html" class="cta-button secondary">View Sale</a>
-          </div>
+          <h1 class="hero-title">Summer Fashion<br>Essentials</h1>
+          <a href="#" class="cta-button">Shop Now</a>
         </div>
-      </div>
-      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');">
-        <div class="hero-content">
-          <span class="hero-subtitle">Summer Sale</span>
-          <h1>Up to 50% Off</h1>
-          <p>Limited time offer on selected items</p>
-          <div class="hero-buttons">
-            <a href="sale.html" class="cta-button primary">Shop Sale</a>
-            <a href="#featured" class="cta-button secondary">View Collection</a>
-          </div>
-        </div>
-      </div>
-      <div class="hero-controls">
-        <button class="hero-prev"><i class="fas fa-chevron-left"></i></button>
-        <div class="hero-dots">
-          <span class="dot active" data-slide="0"></span>
-          <span class="dot" data-slide="1"></span>
-        </div>
-        <button class="hero-next"><i class="fas fa-chevron-right"></i></button>
       </div>
     </div>
     <div class="hero-features">
-      <div class="feature-item">
-        <div class="feature-icon">
-          <i class="fas fa-truck"></i>
+      <div class="container">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <div class="feature-content">
+            <h4>Free Shipping</h4>
+            <p>On orders over $50</p>
+          </div>
         </div>
-        <div class="feature-content">
-          <h4>Free Shipping</h4>
-          <p>On orders over $50</p>
-        </div>
-      </div>
       <div class="feature-item">
         <div class="feature-icon">
           <i class="fas fa-undo"></i>
@@ -338,6 +316,6 @@
       });
     });
   </script>
-  <script src="scripts/hero-slider.js"></script>
+  <script src="./scripts/hero-slider.js"></script>
 </body>
 </html>
